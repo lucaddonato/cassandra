@@ -1,0 +1,22 @@
+{
+  "name": "filmes-cassandra",
+  "version": "1.0.0",
+  "description": "Sistema de avaliação de filmes com Cassandra",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "node testConnect.js"
+  },
+  "keywords": ["cassandra", "nodejs", "express", "filmes"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cassandra-driver": "^4.8.0",
+    "dotenv": "^16.4.5",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
